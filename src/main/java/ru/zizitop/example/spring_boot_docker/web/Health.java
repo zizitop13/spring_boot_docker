@@ -11,7 +11,7 @@ public class Health {
 
     @GetMapping("/health")
     public Mono<String> health() {
-        return Mono.just("Hello World !");
+        return Mono.just("Hello World! Updated!");
     }
 
 
